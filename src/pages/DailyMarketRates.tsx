@@ -1,30 +1,22 @@
-import React, { useState, useRef, useEffect, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import {
   TrendingUp,
-  TrendingDown,
   Minus,
   Search,
   Plus,
   Calendar,
-  ChevronDown,
-  Clock,
   Copy,
   History,
-  CheckCircle2,
   X,
   Sparkles,
   ArrowUpRight,
   ArrowDownRight,
   Scale,
-  Building2,
   Package,
-  Layers,
   Edit3,
   Trash2,
   Printer,
   AlertTriangle,
-  FileText,
-  RefreshCw,
 } from "lucide-react";
 
 // ================= TYPES =================
