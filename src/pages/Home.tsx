@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { useTranslation } from "react-i18next";
+
 import {
   TrendingUp,
   ArrowDownToLine,
@@ -245,7 +245,6 @@ const recentBrokerageVouchers = [
 ];
 
 export const Home: React.FC = () => {
-  const { t } = useTranslation();
   const [rates, setRates] = useState<CommodityRate[]>(initialCommodityRates);
   const [selectedCommodityId, setSelectedCommodityId] = useState<string>("p1");
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
@@ -312,36 +311,6 @@ export const Home: React.FC = () => {
       maxVal,
     };
   }, [activeRate]);
-
-  // Mini Sparkline Math Function for cards
-  const makeMiniSparkline = (hist: { buy: number }[], color: string) => {
-    const vals = hist.map((h) => h.buy);
-    const min = Math.min(...vals);
-    const max = Math.max(...vals);
-    const range = max - min || 1;
-    const pts = hist.map((h, i) => ({
-      x: 5 + (i / (hist.length - 1)) * 90,
-      y: 35 - ((h.buy - min) / range) * 25,
-    }));
-    let d = `M ${pts[0].x},${pts[0].y}`;
-    for (let i = 0; i < pts.length - 1; i++) {
-      const xc = (pts[i].x + pts[i + 1].x) / 2;
-      const yc = (pts[i].y + pts[i + 1].y) / 2;
-      d += ` Q ${pts[i].x},${pts[i].y} ${xc},${yc}`;
-    }
-    d += ` T ${pts[pts.length - 1].x},${pts[pts.length - 1].y}`;
-    return (
-      <svg viewBox="0 0 100 40" className="w-20 h-9 overflow-visible shrink-0">
-        <path
-          d={d}
-          fill="none"
-          stroke={color}
-          strokeWidth="2.5"
-          strokeLinecap="round"
-        />
-      </svg>
-    );
-  };
 
   // Main Volume Graph Math
   const chartPoints = useMemo(() => {

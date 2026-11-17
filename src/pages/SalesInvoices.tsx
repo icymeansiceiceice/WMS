@@ -614,10 +614,7 @@ export const SalesInvoices: React.FC = () => {
     (acc, r) => acc + r.netBillableAmount,
     0
   );
-  const totalCreditSalesValue = creditInvoices.reduce(
-    (acc, r) => acc + r.netBillableAmount,
-    0
-  );
+
   const totalCollectedAmount = invoices.reduce(
     (acc, r) => acc + r.paidAmount,
     0

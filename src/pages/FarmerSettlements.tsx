@@ -446,6 +446,7 @@ export const FarmerSettlements: React.FC = () => {
 
   // Filtered Settlement List
   const filteredSettlements = useMemo(() => {
+    setStatusFilter("all");
     return settlements.filter((item) => {
       const matchType = activeTab === "ALL" || item.type === activeTab;
       const matchStatus =
