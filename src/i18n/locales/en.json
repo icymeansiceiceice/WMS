@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "title": "Shwe War Trading",
+    "subtitle": "Enterprise ERP"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "trading": "Trading & Sales",
+    "inventory": "Stock & Inventory",
+    "partners": "Partners & Finance",
+    "system": "System Settings"
+  },
+  "submenu": {
+    "purchase": "Purchase Voucher",
+    "sales": "Sales Voucher",
+    "settlement": "Farmer Statement",
+    "prices": "Daily Market Prices",
+    "stock": "Current Stock",
+    "transfer": "Warehouse Transfer",
+    "milling": "Paddy Milling",
+    "loss": "Loss Adjustment",
+    "partnersList": "Farmers & Buyers",
+    "advances": "Cash Advances"
+  },
+  "navbar": {
+    "currentPage": "Current Page",
+    "notifications": "Notifications",
+    "search": "Search menus...",
+    "openSidebar": "Expand Sidebar",
+    "closeSidebar": "Collapse to Icons"
+  },
+  "user": {
+    "name": "U Aung Kyaw",
+    "role": "General Manager",
+    "branch": "Yangon Head Office",
+    "profile": "My Profile",
+    "logout": "Log Out",
+    "confirmLogout": "Are you sure you want to log out?"
+  },
+  "dashboard": {
+    "welcome": "မင်္ဂလာပါ ဦးအောင်ကျော်",
+    "subtitle": "ယနေ့ ရွှေစပါး ကုန်စည်ဒိုင်၏ အရောင်းအဝယ်နှင့် စတော့ အကျဉ်းချုပ်",
+    "statusOpen": "ဒိုင်ဖွင့်လှစ်ထားသည်",
+    "newVoucher": "ဘောက်ချာအသစ်ဖွင့်မည်",
+    "exportReport": "အစီရင်ခံစာ ထုတ်ယူမည်",
+    "todayInward": "ယနေ့ ကုန်အဝင်",
+    "todaySales": "ယနေ့ အရောင်းရငွေ",
+    "stockBalance": "လက်ကျန်စတော့ စုစုပေါင်း",
+    "farmerAdvances": "တောင်သူ ကြိုထုတ်ငွေ",
+    "marketPrices": "ယနေ့ ကုန်စည်ဒိုင် ပေါက်ဈေး",
+    "millingRatio": "စပါးကြိတ်ခွဲမှု အထွက်နှုန်း",
+    "warehouseCapacity": "ဂိုဒေါင် သိုလှောင်မှု အခြေအနေ",
+    "recentTransactions": "လတ်တလော ကုန်အဝင်/အရောင်း ဘောက်ချာများ",
+    "viewAll": "အားလုံးကြည့်မည်",
+    "commodity": "ကုန်စည်",
+    "price": "ပေါက်ဈေး",
+    "voucherNo": "ဘောက်ချာအမှတ်",
+    "farmerBuyer": "တောင်သူ / ဝယ်လက်",
+    "type": "အမျိုးအစား",
+    "quantity": "ပမာဏ",
+    "amount": "ကျသင့်ငွေ",
+    "status": "အခြေအနေ"
+  }
+}

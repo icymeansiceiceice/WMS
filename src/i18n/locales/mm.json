@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "title": "ရွှေစပါး ကုန်စည်ဒိုင်",
+    "subtitle": "Enterprise ERP"
+  },
+  "menu": {
+    "dashboard": "ပင်မစာမျက်နှာ",
+    "trading": "အရောင်းအဝယ် လုပ်ငန်း",
+    "inventory": "စတော့နှင့် ပစ္စည်းများ",
+    "partners": "မိတ်ဖက်နှင့် ငွေစားရင်း",
+    "system": "စနစ်များ"
+  },
+  "submenu": {
+    "purchase": "ကုန်အဝင် ဘောက်ချာ",
+    "sales": "အရောင်းဘောက်ချာ",
+    "settlement": "တောင်သူ စာရင်းရှင်းတမ်း",
+    "prices": "နေ့စဉ် ကုန်စည်ဒိုင် ပေါက်ဈေး",
+    "stock": "လက်ကျန်စတော့များ",
+    "transfer": "ဂိုဒေါင်ပြောင်းရွှေ့ခြင်း",
+    "milling": "စပါးကြိတ်ခွဲမှု",
+    "loss": "အလေအလွင့်ညှိနှိုင်းမှု",
+    "partnersList": "တောင်သူ/ဝယ်လက်များ",
+    "advances": "ကြိုထုတ်ငွေစာရင်း"
+  },
+  "navbar": {
+    "currentPage": "လက်ရှိ စာမျက်နှာ",
+    "notifications": "အသိပေးချက်များ",
+    "search": "မနူးများ ရှာဖွေရန်...",
+    "openSidebar": "Sidebar အပြည့်ဖော်မည်",
+    "closeSidebar": "Sidebar ချုံ့မည် (Icons သာ ထားမည်)"
+  },
+  "user": {
+    "name": "ဦးအောင်ကျော်",
+    "role": "အထွေထွေ မန်နေဂျာ",
+    "branch": "ရန်ကုန် ကုန်စည်ဒိုင် (ရုံးချုပ်)",
+    "profile": "ကိုယ်ရေး အချက်အလက် (Profile)",
+    "logout": "အကောင့်မှ ထွက်ရန် (Logout)",
+    "confirmLogout": "အကောင့်မှ ထွက်ခွာမှာ သေချာပါသလား?"
+  },
+  "dashboard": {
+    "welcome": "Welcome, U Aung Kyaw",
+    "subtitle": "Overview of today's trading, milling and stock balances",
+    "statusOpen": "Market Session Open",
+    "newVoucher": "New Voucher",
+    "exportReport": "Export Report",
+    "todayInward": "Today's Inward",
+    "todaySales": "Today's Sales",
+    "stockBalance": "Current Total Stock",
+    "farmerAdvances": "Farmer Advances",
+    "marketPrices": "Daily Market Prices",
+    "millingRatio": "Milling Efficiency & Output",
+    "warehouseCapacity": "Warehouse Capacity",
+    "recentTransactions": "Recent Transactions",
+    "viewAll": "View All",
+    "commodity": "Commodity",
+    "price": "Price",
+    "voucherNo": "Voucher No",
+    "farmerBuyer": "Farmer / Buyer",
+    "type": "Type",
+    "quantity": "Quantity",
+    "amount": "Amount",
+    "status": "Status"
+  }
+}

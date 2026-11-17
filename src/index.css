@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  /* Font */
+  --font-sans: "Noto Sans Myanmar", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+
+  /* Background Colors */
+  --color-app: #e8edf2;
+  --color-card: #ffffff;
+  --color-btn-color: #547a95;
+  --color-btn-hover: #43647b;
+
+  /* Sidebar */
+  --color-sidebar: #2c3947;
+  --color-sidebar-header: #0b1727;
+  --color-sidebar-border: rgba(255, 255, 255, 0.08);
+
+  /* Menu Colors */
+  --color-menu-default: #e8edf2;
+  --color-menu-hover: rgba(255, 255, 255, 0.08);
+  --color-menu-hover-text: #e8edf2;
+  --color-menu-active: #547a95;
+  --color-menu-active-text: #e8edf2;
+
+  /* ================= TOP NAVBAR COLORS (ဤနေရာတွင် အလွယ်တကူ ပြင်နိုင်သည်) ================= */
+  --color-navbar-bg: #e8edf2; /* Top Nav နောက်ခံ */
+  --color-navbar-border: #cbd5e1; /* Top Nav အောက်ဘက် မျဉ်းကြောင်း */
+  --color-navbar-title: #0f172a; /* ခေါင်းစဉ် စာသားအရောင် */
+  --color-navbar-text: #2c3947; /* ပုံမှန် စာသားနှင့် အိုင်ကွန်အရောင် */
+  --color-navbar-accent: #2c3947; /* အလေးပေး/ရွေးချယ်ထားသော စာသားအရောင် */
+
+  /* Top Nav Buttons & Hover Effects */
+  --color-navbar-btn-border: #cbd5e1; /* ခလုတ်များ၏ ဘောင်အရောင် */
+  --color-navbar-hover-bg: #f1f5f9; /* Mouse တင်ချိန် နောက်ခံအရောင် */
+  --color-navbar-hover-text: #547a95; /* Mouse တင်ချိန် စာသားနှင့် အိုင်ကွန်အရောင် */
+  --color-navbar-hover-border: #cbd5e1; /* Mouse တင်ချိန် ဘောင်အရောင် */
+  --color-navbar-badge: #f43f5e; /* အသိပေးချက် Notification အနီစက်လေး */
+}
+
+/* Body */
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-app);
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+.sidebar-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}
+
+.sidebar-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+}
+
+.sidebar-scrollbar:hover::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.5);
+}
+
+/* Menu */
+.menu-item {
+  color: var(--color-menu-default);
+  border-radius: 9999px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  user-select: none;
+}
+
+.menu-item:hover {
+  background-color: var(--color-menu-hover) !important;
+  color: var(--color-menu-hover-text) !important;
+}
+
+.menu-item:hover svg {
+  color: var(--color-menu-hover-text) !important;
+}
+
+.menu-item.active {
+  background-color: var(--color-menu-active) !important;
+  color: var(--color-menu-active-text) !important;
+  font-weight: 600;
+}
+
+.menu-item.active svg {
+  color: #ffffff !important;
+}
+
+/* ==========================================================================
+   TOP NAVBAR INTERACTIVE CLASSES (HOVER & EFFECTS)
+   ========================================================================== */
+
+/* Navbar ပေါ်ရှိ ခလုတ်များ (Toggle, Language, Notifications, Profile) */
+.topnav-btn {
+  color: var(--color-navbar-text);
+  border: 1px solid var(--color-navbar-btn-border);
+  background-color: transparent;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.topnav-btn:hover {
+  background-color: var(--color-navbar-hover-bg);
+  color: var(--color-navbar-hover-text);
+  border-color: var(--color-navbar-hover-border);
+}
+
+.topnav-btn:hover svg {
+  color: var(--color-navbar-hover-text);
+}
+
+/* Dropdown Menu Item Hover */
+.topnav-dropdown-item {
+  color: var(--color-navbar-text);
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.topnav-dropdown-item:hover {
+  background-color: var(--color-navbar-hover-bg);
+  color: var(--color-navbar-hover-text);
+}
+
+.topnav-dropdown-item:hover svg {
+  color: var(--color-navbar-hover-text);
+}
