@@ -326,7 +326,6 @@ export const SystemSettings: React.FC = () => {
   const totalCapacity = warehouses.reduce((acc, w) => acc + w.capacityBags, 0);
   const totalOccupied = warehouses.reduce((acc, w) => acc + w.currentBags, 0);
   const totalAvailable = totalCapacity - totalOccupied;
-  const totalPercentage = Math.round((totalOccupied / totalCapacity) * 100);
 
   // Filter Categories
   const commodityCategories = [
